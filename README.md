@@ -4,48 +4,50 @@ Responsive e-commerce frontend built from a Figma design using React.
 
 ## Project Links
 
-- **Figma Design:** [Moon E-Commerce Figma Design](https://www.figma.com/design/OA5JQHlCktJlOEFDCD6mou/Moon-Ceramic---Furniture-Store-ECommerce-Website-Shop--Community-?node-id=0-1)
+* **Figma Design:** [Moon E-Commerce Figma Design](https://www.figma.com/design/OA5JQHlCktJlOEFDCD6mou/Moon-Ceramic---Furniture-Store-ECommerce-Website-Shop--Community-?node-id=0-1)
+* **YouTube Channel:** [@OwaisKhanFrontEnd-dev](https://www.youtube.com/@OwaisKhanFrontEnd-dev)
 
-- **YouTube Channel:** [@OwaisKhanFrontEnd-dev](https://www.youtube.com/@OwaisKhanFrontEnd-dev)
+## Tech
 
-## Tech:
-React , Tailwind CSS , React Router , Context API , useReducer , JavaScript DummyJSON API localStorage , Blender 3d
+React, Tailwind CSS, React Router, Context API, `useReducer`, JavaScript, DummyJSON API, localStorage, Blender 3D
 
-Features:
-Responsive e-commerce interface
-Figma-to-code implementation
-Product discovery and search
-Category filtering
-Price filtering
-Product sorting
-Product summary page
-Dynamic product data from DummyJSON API
-Shopping cart
-Wishlist system
-Cart quantity management
-Wishlist quantity limits
-Product stock handling
-Discounted product pricing
-Persistent cart state with localStorage
-Persistent wishlist state with localStorage
-Checkout form
-Payment method selection
-Form validation
-Auto-fill demo checkout data
-Simulated login/signup interface
-Responsive navigation and mobile menu
-Loading states
-Offline/network error handling
-Popup feedback messages
-Responsive layouts from desktop to mobile
-Custom Blender visual assets
-Reusable React components
-Context-based cart state management
-Context-based wishlist state management
-React Router page navigation
+## Features
+
+* Responsive e-commerce interface
+* Figma-to-code implementation
+* Product discovery and search
+* Category filtering
+* Price filtering
+* Product sorting
+* Product summary page
+* Dynamic product data from DummyJSON API
+* Shopping cart
+* Wishlist system
+* Cart quantity management
+* Wishlist quantity limits
+* Product stock handling
+* Discounted product pricing
+* Persistent cart state with localStorage
+* Persistent wishlist state with localStorage
+* Checkout form
+* Payment method selection
+* Form validation
+* Auto-fill demo checkout data
+* Simulated login/signup interface
+* Responsive navigation and mobile menu
+* Loading states
+* Offline/network error handling
+* Popup feedback messages
+* Responsive layouts from desktop to mobile
+* Custom Blender visual assets
+* Reusable React components
+* Context-based cart state management
+* Context-based wishlist state management
+* React Router page navigation
 
 ## Project Structure
 
+```text
 src/
 ├── assets/
 │
@@ -107,18 +109,18 @@ src/
 ├── App.jsx
 ├── index.css
 └── main.jsx
-
+```
 
 ## Folder Overview
 
-**assets/**  
+**assets/**
 Contains all optimized project assets, including Blender-rendered visuals and Figma assets.
 
-- Blender assets: approximately 616.7 KB total
-- Figma assets: approximately 33.21 KB total
+* Blender assets: approximately 616.7 KB total
+* Figma assets: approximately 33.21 KB total
 
 **Context/**
-Contains the global cart and wishlist state using React Context and useReducer.
+Contains the global cart and wishlist state using React Context and `useReducer`.
 
 **Home/**
 Contains the homepage composition, hero section, featured categories, and featured products.
